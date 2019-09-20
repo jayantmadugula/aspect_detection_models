@@ -27,6 +27,8 @@ The following packages are required to run the code in this repository:
 * Tensorflow
 * Keras
 
+The code in this repository also requires pre-trained word embeddings. By default, the code will look for a folder called `embedding_data` at the top level of this repository for pre-trained word embeddings. Of course, the code also requires a dataset to parse and train on. Here, the default location is a folder called `data` in the top level of this repository. Code is available in `absa_code/preprocessing/absa_parsing.py` that automatically parses the .xml data files from SemEval 2016. This code is called from `model_testing.py`, so you will need to replace those calls if another dataset is used.
+
 ## Running the Code
 
 The code in `absa_code` is meant to be used as a module. The functions in each of the files contained in `absa_code` are mostly documented with their expected input, output, and purpose.
