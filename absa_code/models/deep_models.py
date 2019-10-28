@@ -1,5 +1,5 @@
-from keras.models import Model
-from keras.layers import Input, Flatten, Dropout, Dense, Concatenate
+from tensorflow.keras.models import Model
+from tensorflow.keras.layers import Input, Flatten, Dropout, Dense, Concatenate
 
 from absa_code.models.models import DeepNeuralNetworkTargetPredictor
 

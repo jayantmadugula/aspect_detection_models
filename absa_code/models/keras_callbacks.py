@@ -1,5 +1,5 @@
 import numpy as np
-from keras.callbacks import Callback
+from tensorflow.keras.callbacks import Callback
 
 from absa_code.analysis import model_performance_metrics as pm 
 
